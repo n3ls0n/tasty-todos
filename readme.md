@@ -28,7 +28,7 @@ The rest is identical to the [Todos](http://backbonejs.org/examples/todos/) exam
     pip install -r requirements.txt
 
     # sync the database
-    python manage.py syncdb
+    python manage.py syncdb --noinput
 
     # run the server!
     python manage.py runserver
